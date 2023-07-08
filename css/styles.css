@@ -13,34 +13,13 @@ body{
     margin: auto;
 }
 
-.section-soluciones{
-    display: flex;
-    justify-content: center;
-    flex-shrink: 0;
-    background: #2F303A;
-    margin: auto;
-
-}
-
-.bgimg{
-    background-image: url("/Imagenes/Bg.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-
 ul{
     list-style: none;
 }
 
-.web-logo{
-    color: #2196f3;
-    text-align: right;
-    font-size: 26px;
-    font-family: Raleway;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    text-decoration: none;
-}
+
+/* --header----------------- */
+
 
 .nav-container{
     display: flex;
@@ -65,6 +44,16 @@ ul{
     gap: 50px;
 }
 
+.web-logo{
+    color: #2196f3;
+    text-align: right;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
+
 .link1{
     color: #2f303a;
     padding-right: 15px;
@@ -83,6 +72,27 @@ ul{
 
 .link2:hover:hover {
     color: #2196f3;
+}
+
+
+/* --header----------------- */
+
+/* ----SOLUCIONES----------- */
+
+
+.section-soluciones{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    background: #2F303A;
+    margin: auto;
+
+}
+
+.bgimg{
+    background-image: url("/Imagenes/Bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .titulo{
@@ -118,6 +128,17 @@ ul{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+
+/* ----SOLUCIONES----------- */
+
+/* -----Atencion------------ */
+
+
+.h2-texto {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container-icons{
     background: rgba(245, 244, 250,1);
     width: 270px;
@@ -133,68 +154,11 @@ ul{
     margin-left:100px ;
 }
 
-.imgicons{
-    width: 70px;
-    height: 70px;
-    flex-shrink: 0;
-}
-
-.icon-redes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    fill:rgba(175, 177,184 ,1);
-}
-
-.list-svg-redes{
-    display: flex;
-    width: 44px;
-    height: 44px;
-    top:12px;
-    left: 12px;
-    justify-content: center;
-    fill: rgba(175, 177,184,1);
-    border-radius: 25px;
-}
-
-.list-svg-redes:hover{
-    background-color: #2196f3;
-}
-
-.list-svg-redes:hover .icon-redes{
-    fill:#eee
-}
-
-.h2-texto {
-    display: flex;
-    justify-content: space-between;
-}
-
 .h2-title {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-}
-
-.letrero-aplicaciones{
-    position: relative;
-    display: flex;
-    background: rgba(47, 48, 58, 0.80);
-    margin-top: -73px;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-}
-
-.plataformas{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    padding-left: 0;
-    gap: 25px;
 }
 
 .ph2-list {
@@ -208,10 +172,16 @@ ul{
     flex-shrink: 0;
 }
 
-.quienes{
-    display: flex;
-    justify-content: space-evenly;
-    color: #f5f4fa;
+
+/* -----Atencion------------ */
+
+/* ---A-que-nos-dedicamos-- */
+
+
+.container-dedicamos{
+    padding-top: 80px;
+    width: 1200px;
+    margin: auto;
 }
 
 .h2-subtitle{
@@ -221,6 +191,28 @@ ul{
     font-weight: 700;
     letter-spacing: 1.08px;
 }
+
+.quienes{
+    display: flex;
+    justify-content: space-evenly;
+    color: #f5f4fa;
+}
+
+.letrero-aplicaciones{
+    position: relative;
+    display: flex;
+    background: rgba(47, 48, 58, 0.80);
+    margin-top: -73px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+
+/* ---A-que-nos-dedicamos-- */
+
+/* -----Nuestro-equipo---- */
+
 
 .section-team{
     flex-shrink: 0;
@@ -248,7 +240,6 @@ ul{
 }
 
 .nombres{
-    color: #212121;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -261,6 +252,48 @@ ul{
     font-size: 16px;
     letter-spacing: 0.48px;
 }
+
+.plataformas{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-left: 0;
+    gap: 25px;
+}
+
+.list-svg-redes{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    top:12px;
+    left: 12px;
+    justify-content: center;
+    fill: rgba(175, 177,184,1);
+    border-radius: 25px;
+}
+
+.list-svg-redes:hover{
+    background-color: #2196f3;
+}
+
+.list-svg-redes:hover .icon-redes{
+    fill:#eee
+}
+
+.icon-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    fill:rgba(175, 177,184 ,1);
+}
+
+
+/* -----Nuestro-equipo---- */
+
+/* --Clientes-regulares-- */
+
 
 .regular-clients{
     display: flex;
@@ -297,6 +330,12 @@ ul{
     fill: rgba(175, 177,184,1);
 }
 
+
+/* --Clientes-regulares-- */
+
+/* ----footer------------- */
+
+
 .footer-font{
     padding: 100px;
     margin: auto;
@@ -322,16 +361,13 @@ ul{
     text-decoration: none;
 }
 
-.mail-phono{
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.42px;
+footer .container{
     display: flex;
-    flex-shrink: 0;
-    padding-top: 30px;
-    color: #757575;
-    text-decoration: none;
+}
+
+.container-redes{
+    margin-left: 90px;
+    margin-top: 05px;
 }
 
 .tittle-footer{
@@ -344,58 +380,59 @@ ul{
     text-transform: uppercase;
 }
 
+.plataformas-footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-left: 0;
+    gap: 25px;
+}
 
+.list-svg-redes-f{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    top:12px;
+    left: 12px;
+    justify-content: center;
+    fill:#2196F3;
+    border-radius: 25px;
+}
 
-.svg-redes-footer{
+.icon-redes-f{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 44px;
-    height: 12px;
-    margin-top: 16px;
-    /* margin-left: 5px;
-    left: 12px; */
-    border-radius: 25px;
-    background: rgba(255, 255, 255, 0.1);
+    width: 20px;
+    height: 20px;
+    fill:#eee;
 }
 
-.svg-redes-footer:hover{
+.list-svg-redes-f:hover{
     background-color: #2196f3;
 }
 
-.svg-redes-footer:hover .svg-push-footer{
-    fill: #eee;
-}
-
-.svg-push-footer{
-    width: 106px;
-    height: 52.826087951660156px;
-    top:2461.0869750976562px;
-    left: 247px;
-    padding: 7px 33px 0px 32px;
-    fill: rgba(175, 177,184,1);
-}
-
-.imgfooter-svg{
-    width: 106px;
-    height: 52.826087951660156px;
-    top:2461.0869750976562px;
-    left: 247px;
-    padding: 7px 33px 0px 32px;
-    fill: rgba(175, 177,184,1);
+.list-svg-redes.f:hover .icon-redes-f{
+    fill:#eee
 }
 
 
+/* ----footer------------- */
 
 
 
-____________________________________________________________________________________
+/* ---------------PORTAFOLIO---------------------- */
 
 
-
-
-
-
+.link{
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    border: 0;
+    border-radius: 4px;
+    padding: 6px 24px;
+    margin-right: 8px;
+}
 
 .div-buttons .link {
     background-color: #f5f4fa;
@@ -403,7 +440,7 @@ ________________________________________________________________________________
 
 }
 
-.div-buttons .link:hover,
+.div-buttons .link:hover, 
 .div-buttons .link:focus {
     background-color: #2196f3;
     color: #ffffff;
@@ -416,17 +453,6 @@ ________________________________________________________________________________
     padding-top: 80px;
     padding-bottom: 30px;
 }
-
-.link{
-    font-size: 16px;
-    line-height: 1.6;
-    font-weight: 500;
-    border: 0;
-    border-radius: 4px;
-    padding: 6px 24px;
-    margin-right: 8px;
-}
-
 
 .container-parrilla {
     display: flex;
@@ -462,48 +488,4 @@ ________________________________________________________________________________
     letter-spacing: 0.48px;
 }
 
-.plataformas-footer{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    padding-left: 0;
-    gap: 25px;
-}
-
-.icon-redes-f{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    fill:rgba(175, 177,184 ,1);
-}
-
-footer .container{
-    display: flex;
-}
-
-.container-redes{
-    margin-left: 90px;
-    margin-top: 05px;
-}
-
-.icon-redes-f{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    fill:rgba(175, 177,184 ,1);
-}
-
-.list-svg-redes-f{
-    display: flex;
-    width: 44px;
-    height: 44px;
-    top:12px;
-    left: 12px;
-    justify-content: center;
-    fill:#2196F3;
-    border-radius: 25px;
-}
+/* ---------------PORTAFOLIO---------------------- */
