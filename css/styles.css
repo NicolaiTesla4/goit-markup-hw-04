@@ -60,7 +60,7 @@ ul{
     text-decoration: none;
 }
 
-.link1:hover {
+.link1:hover{
     color: #2196f3;
 }
 
@@ -70,10 +70,32 @@ ul{
     text-decoration: none;
 }
 
-.link2:hover:hover {
-    color: #2196f3;
+.link2:hover{
+    color: #2196F3;
 }
 
+.link2:hover .cell-svg{
+    fill: #2196F3;
+}
+
+.link2:hover .mail-svg{
+    fill:#2196F3;
+}
+
+.mail-svg{
+    width: 16px;   
+    height: 12px;
+    fill: #757575;
+    margin-right: 8px;
+
+}
+
+.cell-svg{
+    width:10px ;
+    height:16px ;
+    fill:#757575 ;
+    margin-right: 8px;
+}
 
 /* --header----------------- */
 
@@ -254,6 +276,7 @@ ul{
 }
 
 .plataformas{
+    padding: 10px; ;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -262,15 +285,17 @@ ul{
 }
 
 .list-svg-redes{
+    align-items: center;
     display: flex;
     width: 44px;
     height: 44px;
-    top:12px;
-    left: 12px;
     justify-content: center;
     fill: rgba(175, 177,184,1);
     border-radius: 25px;
+    margin-bottom: 25px;
 }
+
+
 
 .list-svg-redes:hover{
     background-color: #2196f3;
@@ -389,11 +414,10 @@ footer .container{
 }
 
 .list-svg-redes-f{
+    align-items: center;
     display: flex;
     width: 44px;
     height: 44px;
-    top:12px;
-    left: 12px;
     justify-content: center;
     fill:#2196F3;
     border-radius: 25px;
